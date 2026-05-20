@@ -1,0 +1,123 @@
+body{
+    background-color: paleturquoise;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* container */
+.container{
+    background-color: blanchedalmond;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+/* menu */
+.menu{
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+.menu li{
+    list-style: none;
+}
+.menu li a{
+    text-decoration: none;
+    font-size: 20px;
+}
+.menu li a:hover{
+    background-color: paleturquoise;
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+    color: black;
+}
+/* logo */
+.logo{
+    margin-right: auto;
+}
+.logo img{
+    width: 35%;
+    height: 75%;
+    border-radius: 40px;
+    padding: 15px;
+}
+input{
+    padding: 5px;
+    display: flex;
+    border-radius: 5px;
+}
+/* banner */
+.banner img{
+    width: 100%;
+    margin-top: 10px;
+}
+/* category */
+.category{
+    display: flex;
+    gap: 25px;
+}
+.category .card{
+    background-color: white;
+    box-shadow: 0px 0px 8px 0px black;
+    width: 180px;
+    border-radius: 10px;
+}
+.category .card img{
+    width: 160px;
+    height: 160px;
+    padding: 5px;
+   
+}
+.category .card p{
+    text-align: center;
+}
+.product{
+    display: flex;
+    gap: 5px;
+}
+.product .card{
+    width: 20%;
+    height:430px;
+    background-color: white;
+    box-shadow: 0px 0px 5px black;
+    border-radius: 10px;
+}
+.product .card img{
+    width: 200px;
+    margin-left: 70px;
+    
+}
+.product .card h2{
+    text-align: center;
+    color: blueviolet;
+    font-size: 20px;
+}
+.product .card h3{
+    text-align: center;
+    color: red;
+    font-size: 20px;
+}
+.product .card p{
+    text-align: justify;
+    color: black;
+    font-size: 15px;
+    padding: 5px;
+}
+.product .card .li{
+    margin-left: 125px;
+    color: gold;
+   padding: 10px;
+    
+}
+button{
+    margin-left: 140px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background-color: orangered;
+}
+.map{
+    margin-left: 200px;
+}
+.map h1{
+text-align: center;
+}
